@@ -38,7 +38,7 @@ git commit -m "$commit_msg"
 # Crear rama main si no existe
 git branch -M main
 
-# Subir al remoto
-git push -u origin main
+# Subir al remoto forzadamente
+git push origin main --force
 
-echo "✅ Proyecto subido correctamente a GitHub."
+echo "✅ Proyecto subido correctamente a GitHub (con --force)."
